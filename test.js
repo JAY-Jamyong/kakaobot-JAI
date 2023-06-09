@@ -25,7 +25,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
             var w = u.split("<span class=\"wins\">");
             var l = u.split("<span class=\"losses\">");
             var win = u.split("<span class=\"winratio\">");
-            replier.reply(msg.substr(5) + "님에 롤 전적 검색결과 입니다\n티어 : " + t[1].split("<")[0] + "\n승리 : " + w[1].split("<")[0] + "\n패배 : " + l[1].split("<")[0] + "\n승률 : " + win[1].split("<")[0]);
+            replier.reply(msg.substr(5) + "님의 롤 전적 검색결과 입니다\n티어 : " + t[1].split("<")[0] + "\n승리 : " + w[1].split("<")[0] + "\n패배 : " + l[1].split("<")[0] + "\n승률 : " + win[1].split("<")[0]);
             //
         }
     } catch (e) {
